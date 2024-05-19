@@ -21,6 +21,7 @@ nav{
   ul{
     list-style: none;
     border-radius: 40px;
+    display: flex;
     li{
       padding: 20px;
       font-size: 18px;

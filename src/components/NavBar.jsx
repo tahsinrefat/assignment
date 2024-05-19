@@ -17,7 +17,7 @@ const NavBar = () => {
       </div>
 
       <div className="links">
-        <ul>
+        {/* <ul>
             <li>
                 Restaurants
             </li>
@@ -36,6 +36,20 @@ const NavBar = () => {
             <li>
                 Page <span className={`drop ${isRotated ? 'rotate' : ''}`} onClick={toggleRotation}>&#8250;</span>
             </li>
+        </ul> */}
+        <ul>
+          <li>
+              Restaurants
+          </li>
+          <li>
+              Recipes
+          </li>
+          <li>
+              About
+          </li>
+          <li>
+              Page <span className={`drop ${isRotated ? 'rotate' : ''}`} onClick={toggleRotation}>&#8250;</span>
+          </li>
         </ul>
       </div>
       
