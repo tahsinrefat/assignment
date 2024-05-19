@@ -1,0 +1,434 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  margin: 10px 0px 0px 50px;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 0px 50px;
+  ul{
+    list-style: none;
+    border-radius: 40px;
+    li{
+      padding: 20px;
+      font-size: 18px;
+      cursor: pointer;
+      .drop {
+        display: inline-block;
+        transition: transform 0.3s ease; /* Add smooth transition */
+      }
+      
+      .drop.rotate {
+        transform: rotate(90deg); /* Rotate the dropdown icon */
+      }
+      
+    }
+  }
+}
+
+nav{
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px 0px 0px;
+    button{
+      margin: 0px 15px 0 15px;
+      padding: 15px 25px 15px 25px;
+      font-size: 18px;
+      background-color: #E94339;
+      color: white;
+      border-radius: 40px;
+      border: none;
+      cursor: pointer;
+    }
+    .login{
+      background-color: transparent;
+      color: black;
+      margin: 0;
+    }
+  }
+}
+
+.textandpic{
+  margin: 80px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .text{
+    padding: 0px 0px 0px 35px;
+    width: 50%;
+    .bigtext{
+      font-size: 110px;
+      font-weight: bold;
+    }
+    .smalltext{
+      font-size: 35px;
+    }
+    .field{
+      background-color: #F6F6F6;
+      border-radius: 40px;
+      height: 61px;
+      width: 600px;
+      margin: 20px 0px 0px 0px;
+      input{
+        height: 50px;
+        width: 450px;
+        border-radius: 40px;
+        border: none;
+        background-color: #F6F6F6;
+        margin: 5px 0px 0px 5px;
+      }
+      input::placeholder{
+        padding: 0px 0px 0px 20px;
+        font-size: 20px;
+      }
+      button{
+        padding: 15px 25px 15px 25px;
+        font-size: 18px;
+        background-color: #E94339;
+        color: white;
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+        margin: 5px 5px 0px 0px;
+      }
+    }
+    .store{
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      margin: 25px 0px 0px 0px;
+      .applestore{
+        margin: 0px 65px 0px 0px;
+      }
+    }
+  }
+  .delivery{
+    margin: 0px 20px 0px 0px;
+    img{
+      border-radius: 40px;
+    }
+  }
+}
+.menu-and-client{
+  margin: 80px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .inspire-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .big-inspire{
+      text-align: center;
+      font-size: 60px;
+      font-weight: bold;
+      width: 75%;
+      span{
+        color: red;
+      }
+    }
+    .small-inspire{
+      margin: 20px 0px 0px 0px;
+      font-size: 25px;
+    }
+  }
+  .menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0px 0px 0px;
+    .div1{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .foods1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin: 0px 0px 0px 200px;
+        .pizza{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: #F9F9F9;
+          border-radius: 15px;
+          margin: 35px;
+          .emoji{
+            font-size: 65px;
+            margin: 60px 50px 60px 50px;
+            background-color: white;
+            border-radius: 50%;
+            height: 75px;
+            width: 75px;
+          }
+          .food-name{
+            font-size: 30px;
+            margin: 0px 45px 30px 45px;
+          }
+        }
+        .burger{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: #F9F9F9;
+          border-radius: 15px;
+          margin: 35px;
+          .emoji{
+            font-size: 65px;
+            margin: 60px 50px 60px 50px;
+            background-color: white;
+            border-radius: 50%;
+            height: 75px;
+            width: 75px;
+          }
+          .food-name{
+            font-size: 30px;
+            margin: 0px 45px 30px 45px;
+          }
+        }
+        .sushi{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: #F9F9F9;
+          border-radius: 15px;
+          margin: 35px;
+          .emoji{
+            font-size: 65px;
+            margin: 60px 50px 60px 50px;
+            background-color: white;
+            border-radius: 50%;
+            height: 75px;
+            width: 75px;
+          }
+          .food-name{
+            font-size: 30px;
+            margin: 0px 45px 30px 45px;
+          }
+        }
+      }
+      .quote1{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0px 250px 0px 0px;
+        padding: 35px 80px 35px 80px;
+        background-color: #F9F9F9;
+        border-radius: 20px;
+        .offer-text{
+          width: 450px;
+          font-size: 30px;
+          .deals{
+            color: red;
+          }
+          .free{
+            color: green;
+          }
+        }
+      }
+    }
+    .div2{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 45px 0px 0px 0px;
+      .quote2{
+        margin: 0px 0px 0px 160px;
+        .lorem{
+          font-size: 30px;
+          width: 700px;
+        }
+      }
+      .foods2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 300px 0px 0px;
+        .pasta{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: #F9F9F9;
+          border-radius: 15px;
+          margin: 35px;
+          .emoji{
+            font-size: 65px;
+            margin: 60px 50px 60px 50px;
+            background-color: white;
+            border-radius: 50%;
+            height: 75px;
+            width: 75px;
+          }
+          .food-name{
+            font-size: 30px;
+            margin: 0px 45px 30px 45px;
+          }
+        }
+        .salad{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: #F9F9F9;
+          border-radius: 15px;
+          margin: 35px;
+          .emoji{
+            font-size: 65px;
+            margin: 60px 50px 60px 50px;
+            background-color: white;
+            border-radius: 50%;
+            height: 75px;
+            width: 75px;
+          }
+          .food-name{
+            font-size: 30px;
+            margin: 0px 45px 30px 45px;
+          }
+        }
+        .desserts{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: #F9F9F9;
+          border-radius: 15px;
+          margin: 35px;
+          .emoji{
+            font-size: 65px;
+            margin: 60px 50px 60px 50px;
+            background-color: white;
+            border-radius: 50%;
+            height: 75px;
+            width: 75px;
+          }
+          .food-name{
+            font-size: 30px;
+            margin: 0px 45px 30px 45px;
+          }
+        }
+      }
+    }
+  }
+}
+.client-feedback{
+  margin: 80px 0px 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .feedback{
+    margin: 20px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .doorstep{
+    width: 600px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+  }
+  svg{
+    margin: 30px 0px 30px 0px;
+  }
+  .lorem-ipsum{
+    font-size: 30px;
+    width: 950px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+  }
+  .name{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .left-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left, .right{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      font-size: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+      background-color: #E2E2E2;
+      cursor: pointer;
+    }
+    .right{
+      color: white;
+      background-color: #E94339;
+    }
+  }
+}
+.subscribe{
+  margin: 50px 0px 30px 0px;
+  background-color: #FFEFEC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .news{
+    margin: 80px 0px 80px 150px;
+    .sub{
+      font-size: 55px;
+      font-weight: bold;
+    }
+    .browse{
+      font-size: 20px;
+    }
+  }
+  .field{
+    background-color: #F6F6F6;
+      border-radius: 40px;
+      height: 61px;
+      width: 600px;
+      margin: 20px 150px 0px 0px;
+      input{
+        height: 50px;
+        width: 450px;
+        border-radius: 40px;
+        border: none;
+        background-color: #F6F6F6;
+        margin: 5px 0px 0px 5px;
+      }
+      input::placeholder{
+        padding: 0px 0px 0px 20px;
+        font-size: 20px;
+      }
+      button{
+        padding: 15px 25px 15px 25px;
+        font-size: 18px;
+        background-color: #E94339;
+        color: white;
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+        margin: 5px 5px 0px 0px;
+      }
+  }
+}
